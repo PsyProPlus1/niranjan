@@ -440,7 +440,7 @@
 
             <div id="step1" class="payment-step active-step">
                 <div class="content-logo-container">
-                     <img src="paymentlogo.jpg" alt="Psychometrica ProPlus Logo" class="content-logo" onerror="this.style.display='none'; this.parentElement.innerHTML = '<div style=\'text-align:center; color: var(--color-text-muted);\'>Logo not available</div>'">
+                     <img src="paymentlogo.jpg" alt="Adv. Niranjan V. Pawar  ProPlus Logo" class="content-logo" onerror="this.style.display='none'; this.parentElement.innerHTML = '<div style=\'text-align:center; color: var(--color-text-muted);\'>Logo not available</div>'">
                 </div>
 
                 <h2>Choose Your Payment Method</h2>
@@ -458,13 +458,13 @@
                     <div id="upi-details" class="payment-details-content">
                          <h4><i class="fa-solid fa-paper-plane"></i> Pay via UPI ID</h4>
                          <p> <strong>UPI ID:</strong> <span class="value" id="upiIdValue">pawar.n10@oksbi</span> <button class="copy-btn" aria-label="Copy UPI ID" data-clipboard-target="#upiIdValue"> <i class="fa-regular fa-copy copy-icon"></i><span class="copy-text">Copied!</span> </button> </p>
-                         <div class="center-link"> <a href="upi://pay?pa=pawar.n10@oksbi&pn=Psychometrica&cu=INR" target="_blank" class="upi-link" rel="noopener noreferrer"> <i class="fa-solid fa-arrow-up-right-from-square"></i> Open UPI App </a> </div>
+                         <div class="center-link"> <a href="upi://pay?pa=pawar.n10@oksbi&pn=Adv. Niranjan V. Pawar &cu=INR" target="_blank" class="upi-link" rel="noopener noreferrer"> <i class="fa-solid fa-arrow-up-right-from-square"></i> Open UPI App </a> </div>
                     </div>
                     <div id="qr-details" class="payment-details-content">
                         <h4><i class="fa-solid fa-qrcode"></i> Scan QR Code</h4>
                         <p>Scan this code using another device OR click below to pay:</p>
-                         <img src="qr.jpeg" alt="Scan QR Code to Pay Psychometrica" class="qr-code" onerror="this.alt='QR Code Image Unavailable'; this.style.border='1px dashed #ccc'; this.style.width='100px'; this.style.height='100px'; this.src=''; this.parentElement.insertAdjacentHTML('beforeend', '<p style=\'text-align:center; color: var(--color-text-muted);\'>QR unavailable</p>');">
-                         <div class="center-link"> <a href="upi://pay?pa=pawar.n10@oksbi&pn=Psychometrica&cu=INR" target="_blank" class="upi-link" rel="noopener noreferrer"> <i class="fa-solid fa-mobile-screen-button"></i> Pay with UPI App </a> </div>
+                         <img src="qr.jpeg" alt="Scan QR Code to Pay Adv. Niranjan V. Pawar " class="qr-code" onerror="this.alt='QR Code Image Unavailable'; this.style.border='1px dashed #ccc'; this.style.width='100px'; this.style.height='100px'; this.src=''; this.parentElement.insertAdjacentHTML('beforeend', '<p style=\'text-align:center; color: var(--color-text-muted);\'>QR unavailable</p>');">
+                         <div class="center-link"> <a href="upi://pay?pa=pawar.n10@oksbi&pn=Adv. Niranjan V. Pawar &cu=INR" target="_blank" class="upi-link" rel="noopener noreferrer"> <i class="fa-solid fa-mobile-screen-button"></i> Pay with UPI App </a> </div>
                     </div>
                     <div id="bank-details" class="payment-details-content">
                         <h4><i class="fa-solid fa-building-columns"></i> Bank Transfer Details</h4>
@@ -479,7 +479,7 @@
                          <h4><i class="fa-solid fa-mobile-screen-button"></i> Pay to Mobile Number</h4>
                          <p>You can pay directly using GPay, PhonePe, Paytm, etc., to the mobile number:</p>
                          <p style="text-align:center; margin-top: var(--spacing-4); font-size: 1.2em; font-weight: 600; color: var(--color-primary); position: relative;"> <i class="fa-solid fa-mobile-screen"></i> <span id="mobileNoValue" style="padding-right: 30px;">9960007171</span> <button class="copy-btn" aria-label="Copy Mobile Number" data-clipboard-target="#mobileNoValue"> <i class="fa-regular fa-copy copy-icon"></i><span class="copy-text">Copied!</span> </button> </p>
-                         <div class="center-link"> <a href="upi://pay?pa=pawar.n10@oksbi&pn=Psychometrica&cu=INR" target="_blank" class="upi-link" rel="noopener noreferrer"> <i class="fa-solid fa-arrow-up-right-from-square"></i> Open UPI App (via Mobile No) </a> </div>
+                         <div class="center-link"> <a href="upi://pay?pa=pawar.n10@oksbi&pn=Adv. Niranjan V. Pawar &cu=INR" target="_blank" class="upi-link" rel="noopener noreferrer"> <i class="fa-solid fa-arrow-up-right-from-square"></i> Open UPI App (via Mobile No) </a> </div>
                     </div>
                 </div>
 
@@ -787,7 +787,7 @@
             const orderId = "ORD" + Date.now() + Math.random().toString(36).substring(2, 7).toUpperCase(); // Slightly more unique ID
             let modeDisplay = selectedPaymentMethodName || (mode ? mode.charAt(0).toUpperCase() + mode.slice(1) : 'N/A');
 
-            const messageBody = `🧾 *Payment Confirmation - Psychometrica ProPlus*\n\n` +
+            const messageBody = `🧾 *Payment Confirmation - Adv. Niranjan V. Pawar  ProPlus*\n\n` +
                                 `👤 *Name:* ${name}\n` +
                                 `💼 *Purpose:* ${purpose}\n` +
                                 `💳 *Mode Used:* ${modeDisplay}\n` +
